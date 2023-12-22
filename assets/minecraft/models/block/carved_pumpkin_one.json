@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "front": "minecraft:block/carved_pumpkin/xylopumpkin/inner_animated",
-    "side": "minecraft:block/carved_pumpkin/xylopumpkin/inner_animated",
-    "top": "minecraft:block/carved_pumpkin/xylopumpkin/inner_side_alt"
-  }
-}
