@@ -1,5 +1,5 @@
 # Shader Pack
 ## Dependencies
-* [https://modrinth.com/mod/sodium](Iris)
-* [https://modrinth.com/mod/iris](Iris)
+* [Sodium](https://modrinth.com/mod/sodium)
+* [Iris](https://modrinth.com/mod/iris)
 ## Sources
