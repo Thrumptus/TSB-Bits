@@ -12,10 +12,13 @@
 </summary>
 
 The default carved pumpkin texture is weighted 4095\
-Xylo's inner skin layer is weighted 10 and blinks
+The inner skin layer is weighted 10 and blinks
 
 ![Xylo_inner](https://github.com/Thrumptus/TSB-Bits/blob/main/Images/Xylo_inner.png?raw=true)
-And his outer skin layer is weighted 1
+
+And the outer skin layer is weighted 1
+
+![Xylo outer](https://github.com/Thrumptus/TSB-Bits/blob/main/Images/xylo_outer.png?raw=true)
 </details>
 
 Kitsune Fox Models\
