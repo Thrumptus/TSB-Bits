@@ -11,9 +11,8 @@
 #### Xylo_Crops Carved Pumpkins
 </summary>
 
-The default carved pumpkins texture is weighted 4095
-
-+ Xylo's inner skin layer is weighted 10 and blinks
+The default carved pumpkin texture is weighted 4095\
+Xylo's inner skin layer is weighted 10 and blinks
 
 ![Xylo_inner](https://github.com/Thrumptus/TSB-Bits/blob/main/Images/Xylo_inner.png?raw=true)
 And his outer skin layer is weighted 1
