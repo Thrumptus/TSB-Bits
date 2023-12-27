@@ -4,7 +4,14 @@
 * [Entity Model Features](https://modrinth.com/mod/entity-model-features/versions)
 * [CIT-Resewn](https://modrinth.com/mod/cit-resewn/versions)
 ## Features
-Xylo_Crops Carved Pumpkins\
+<details>
+<summary>Xylo_Crops Carved Pumpkins</summary>
+Normal carved pumpkins are weighted 4095
+Xylo's inner skin layer is weighted 10 and blinks
+![2023-12-07_01 10 53](https://github.com/Thrumptus/TSB-Bits/assets/93964920/d46a5977-673e-4309-8cdd-2a4d946a6e23)
+And his outer skin layer is weighted 1
+</details>
+
 Kitsune Fox Models\
 Two PP Dolphin Model\
 Minecraft Mikey Wolf Model\
