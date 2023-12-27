@@ -8,7 +8,7 @@
 <summary>Xylo_Crops Carved Pumpkins</summary>
 Normal carved pumpkins are weighted 4095
 Xylo's inner skin layer is weighted 10 and blinks
-![2023-12-07_01 10 53](https://github.com/Thrumptus/TSB-Bits/assets/93964920/72146709-3bc9-4ac3-9b53-c395ef6f83a8)
+![2023-12-07_01 10 53](https://github.com/Thrumptus/TSB-Bits/blob/main/Images/Xylo_inner.png)
 And his outer skin layer is weighted 1
 </details>
 
