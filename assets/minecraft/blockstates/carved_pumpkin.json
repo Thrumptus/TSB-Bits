@@ -3,7 +3,7 @@
     "facing=east": [{"model": "minecraft:block/carved_pumpkin","y": 90,"weight":4095},
         {"model": "minecraft:block/carved_pumpkin_zero","y": 90,"weight":1},
         {"model": "minecraft:block/carved_pumpkin_one","y": 90,"weight":10}],
-    "facing=north": [{"model": "minecraft:block/carved_pumpkin","y": 90,"weight":4095},
+    "facing=north": [{"model": "minecraft:block/carved_pumpkin","y": 0,"weight":4095},
         {"model": "minecraft:block/carved_pumpkin_zero","y": 90,"weight":1},
         {"model": "minecraft:block/carved_pumpkin_one","y": 90,"weight":10}],
     "facing=south": [{"model": "minecraft:block/carved_pumpkin","y": 180,"weight":4095},
