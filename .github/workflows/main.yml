@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: "Build"
         run: |
+          sudo apt-get install zip
+          zip -r TSBPack.zip D:\a\TSB-Pack\
           echo "done!"
 
       - uses: "marvinpinto/action-automatic-releases@latest"
@@ -20,7 +22,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: false
-          title: "Development Build"
+          title: "Resource Pack"
           files: |
-            LICENSE.txt
-            *.jar
+            *.zip
