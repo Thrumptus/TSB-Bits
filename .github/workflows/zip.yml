@@ -18,3 +18,8 @@ jobs:
       with:
        artifacts: "release.zip"
        token: ${{ secrets.GITHUB_TOKEN }}
+       generateReleaseNotes: True
+       tag: "latest"
+       commit: "main"
+       name: "Resource Pack"
+       makeLatest: True
