@@ -13,8 +13,8 @@ jobs:
     steps:
       - name: "Build"
         run: |
-          dir
-          zip -r TSBPack.zip /home/runner/work/TSB-Bits/TSB-Bits
+         ls -lrta
+         
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
