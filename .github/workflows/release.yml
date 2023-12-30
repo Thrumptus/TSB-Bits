@@ -1,16 +1,15 @@
-name: Create Archive
-on: [push]
+name: Releases
+
+on: 
+  push:
+
 jobs:
+
   build:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: Archive Release
-      uses: thedoctor0/zip-release@0.7.5
-      with:
-        type: 'zip'
-        filename: 'TSBPack.zip'
-        #exclusions: '*.git* *.github* *images* README.md'
+    permissions:
+      contents: write
+    steps:    
     - uses: actions/checkout@v3
     - uses: ncipollo/release-action@v1
       with:
