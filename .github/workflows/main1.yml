@@ -17,4 +17,5 @@ jobs:
         generateReleaseNotes: True
         tag: "latest"
         commit: "main"
-        body: "Resource Pack"
+        name: "Resource Pack"
+        makeLatest: True
