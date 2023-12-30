@@ -1,7 +1,8 @@
 name: Create Archive
 on: 
- push
  workflow_dispatch:
+ push:
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
