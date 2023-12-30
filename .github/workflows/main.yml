@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: "Build"
         run: |
-          ls
+          find .
          
 
       - uses: "marvinpinto/action-automatic-releases@latest"
