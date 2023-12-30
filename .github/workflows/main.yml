@@ -14,8 +14,7 @@ jobs:
       - name: "Build"
         run: |
           pwd
-          zip -r TSBPack.zip D:\a\TSB-Pack\
-          echo "done!"
+          zip -r TSBPack.zip /home/runner/work/TSB-Bits/TSB-Bits
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
