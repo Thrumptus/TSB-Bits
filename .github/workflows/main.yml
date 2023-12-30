@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: "Build"
         run: |
+          echo *
           zip -r TSBPack.zip .
          
 
