@@ -1,5 +1,5 @@
 name: Create Archive
-#on: [push]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,5 +9,5 @@ jobs:
       uses: thedoctor0/zip-release@0.7.5
       with:
         type: 'zip'
-        filename: 'TSBPack.zip'
-        #exclusions: '*.git* *.github* *images* README.md'
+        filename: 'release.zip'
+        exclusions: '*.git* *.github* */images* README.md'
