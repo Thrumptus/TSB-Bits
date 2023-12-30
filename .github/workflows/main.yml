@@ -1,0 +1,27 @@
+---
+name: "pre-release"
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  pre-release:
+    name: "Release"
+    runs-on: "windows-latest"
+
+    steps:
+      # ...
+      - name: "Build & test"
+        run: |
+          cd
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Resource Pack"
+          files: |
+            *.zip
