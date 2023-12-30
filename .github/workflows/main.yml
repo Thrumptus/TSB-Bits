@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: "Build"
         run: |
-          find .
+          zip -r TSBPack.zip .
          
 
       - uses: "marvinpinto/action-automatic-releases@latest"
