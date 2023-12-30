@@ -15,5 +15,5 @@ jobs:
       with:
         artifacts: "TSBPack.zip"
         generateReleaseNotes: True
-        tag: "latest"
+        tag: "Resource Pack"
         commit: "main"
