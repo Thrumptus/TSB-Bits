@@ -23,6 +23,9 @@ jobs:
        token: ${{ secrets.GITHUB_TOKEN }}
        generateReleaseNotes: True
        name: "Resource Pack"
-       makeLatest: Legacy
+       makeLatest: True
        allowUpdates: True
+       commit: "Main"
+       tag: "Latest"
+        
     
