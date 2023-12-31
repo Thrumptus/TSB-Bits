@@ -2,8 +2,6 @@ name: Create Archive
 on: 
  workflow_dispatch:
  push:
-   tags:
-   - '*'
  
 jobs:
   build:
