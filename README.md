@@ -33,7 +33,7 @@ Fireball Ghast Texture\
 Fireball Sheep Texture\
 HolaHi Wales Sheep Texture\
 HH Chicken Texture\
-Thrumptus and HH Death SFX\
+Andy, Thrumptus and HH Death SFX\
 Custom Music Disc Songs, Textures and Tooltips\
 Custom TSB Credits and Audio\
 Custom End Poem\
