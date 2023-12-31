@@ -22,8 +22,7 @@ jobs:
        artifacts: "TSBPack.zip"
        token: ${{ secrets.GITHUB_TOKEN }}
        generateReleaseNotes: True
-       commit: "main"
        name: "Resource Pack"
-       makeLatest: True
+       makeLatest: Legacy
        allowUpdates: True
     
