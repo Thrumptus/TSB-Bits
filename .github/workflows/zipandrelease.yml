@@ -25,3 +25,4 @@ jobs:
        makeLatest: True
        tag: "latest"
        allowUpdates: True
+       omitBodyDuringUpdate: False
