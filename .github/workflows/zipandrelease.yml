@@ -23,7 +23,7 @@ jobs:
        name: "Resource Pack"
        makeLatest: True
        allowUpdates: True
-       commit: "Main"
-       tag: "Latest"
+       commit: "main"
+       tag: "latest"
         
     
