@@ -13,7 +13,7 @@ jobs:
       with:
         type: 'zip'
         filename: 'TSBPack.zip'
-        exclusions: '*.git* *.github* */images/* *README.md*'
+        exclusions: '*.git* *.github* *images/* *README.md*'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
