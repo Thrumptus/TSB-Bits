@@ -1,3 +1,3 @@
 git add .
 git commit
-git push tag
+git push tag e
