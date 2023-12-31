@@ -1,4 +1,5 @@
 git pull
 git add .
 git commit
-git push tag
+git push
+pause
