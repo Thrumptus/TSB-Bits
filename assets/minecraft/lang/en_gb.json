@@ -4806,7 +4806,7 @@
   "options.difficulty.normal": "Normal",
   "options.difficulty.normal.info": "Hostile mobs spawn and deal standard damage. Hunger bar depletes and drains health down to half a heart.",
   "options.difficulty.online": "Server Difficulty",
-  "options.difficulty.peaceful": "KKK",
+  "options.difficulty.peaceful": "Peaceful",
   "options.difficulty.peaceful.info": "No hostile mobs and only some neutral mobs spawn. Hunger bar doesn't deplete and health replenishes over time.",
   "options.directionalAudio": "Directional Audio",
   "options.directionalAudio.off.tooltip": "Classic Stereo sound",
