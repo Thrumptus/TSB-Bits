@@ -19,7 +19,6 @@ jobs:
       with:
        artifacts: "TSBPack.zip"
        token: ${{ secrets.GITHUB_TOKEN }}
-       generateReleaseNotes: True
        name: "Resource Pack"
        makeLatest: True
        allowUpdates: True
