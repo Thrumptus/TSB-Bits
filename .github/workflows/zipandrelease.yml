@@ -2,21 +2,13 @@ name: Create Archive
 on: 
  workflow_dispatch:
  push:
+   tags:
+   - '*'
  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: liudonghua123/delete-release-action@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        release_name: 'Resource Pack'
-    #- uses: dev-drprasad/delete-tag-and-release@v1.0
-      #with:
-       #tag_name: latest
-       #github_token: ${{ secrets.GITHUB_TOKEN }}
-       #delete_release: true
     - uses: actions/checkout@master
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.5
@@ -33,7 +25,5 @@ jobs:
        commit: "main"
        name: "Resource Pack"
        makeLatest: True
-       tag: "latest"
        allowUpdates: True
-       omitBodyDuringUpdate: False
     
