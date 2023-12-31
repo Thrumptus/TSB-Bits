@@ -23,6 +23,7 @@ jobs:
        makeLatest: True
        allowUpdates: True
        omitNameDuringUpdate: True
+       omitBodyDuringUpdate: True
        commit: "main"
        tag: "latest"
         
